@@ -1,3 +1,10 @@
 from django.shortcuts import render
+from django.views.generic import ListView
 
-# Create your views here.
+from dogs.models import Dog
+
+
+class ShowAllDogsList(ListView):
+    model = Dog
+    template_name = "dog_list.html"
+    context_object_name = "dogs"

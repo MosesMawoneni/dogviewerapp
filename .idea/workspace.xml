@@ -5,23 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f52ff77-0fae-4eb5-a104-6c4519243413" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/DogViewer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DogViewer/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DogViewer/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DogViewer/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DogViewer/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DogViewer/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dogs/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dog_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DogViewer/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DogViewer/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dogs/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/dogs/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dogs/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/dogs/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dogs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/dogs/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,9 +40,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Django Server.DogViewer.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "django.template.preview.state": "SHOW_EDITOR",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,6 +62,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="DogViewer.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -90,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730134565223</updated>
-      <workItem from="1730134566616" duration="501000" />
+      <workItem from="1730134566616" duration="2681000" />
     </task>
     <servers />
   </component>
